@@ -12,5 +12,10 @@ A mobile app that brings together different news sources from across the politic
 - Launch the application: `yarn start`
 - Select `Run on ios simulator`
 
+# Testing
+
+We use Jest to test our app. To run the test suite,
+- From the project root run, `npm test`
+
 
 by the foxy-news team
