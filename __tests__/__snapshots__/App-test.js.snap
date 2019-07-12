@@ -1,22 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App renders the loading screen 1`] = `
-<AppLoading
-  onError={[Function]}
-  onFinish={[Function]}
-  startAsync={[Function]}
-/>
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#3498db",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "HelveticaNeue-Bold",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "marginTop": 40,
+        }
+      }
+    >
+      By the Power of Truth
+    </Text>
+  </View>
+</View>
 `;
 
 exports[`App renders the root without loading screen 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#fff",
+      "alignItems": "center",
+      "backgroundColor": "#3498db",
       "flex": 1,
+      "justifyContent": "center",
     }
   }
 >
-  <AppNavigator />
+  <View>
+    <Text
+      style={
+        Object {
+          "fontFamily": "HelveticaNeue-Bold",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "marginTop": 40,
+        }
+      }
+    >
+      By the Power of Truth
+    </Text>
+  </View>
 </View>
 `;

@@ -17,5 +17,7 @@ A mobile app that brings together different news sources from across the politic
 We use Jest to test our app. To run the test suite,
 - From the project root run, `npm test`
 
+- To update the snapshot `npm test -- -u`
+
 
 by the foxy-news team
